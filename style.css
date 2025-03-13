@@ -104,15 +104,16 @@ nav ul li a:hover {
 
 .project-card {
     width: 250px;
-    border: 1px solid #ccc;
+    border: 1px solid #162be7;
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px rgba(128, 134, 194, 0.2);
 }
 
 .project-card img {
